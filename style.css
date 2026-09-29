@@ -1,3 +1,11 @@
+html{
+    position: relative;
+}
+
+body{
+    margin-bottom: 150px;
+}
+
 .jumbotron img{
     width: 200px;
     border: 5px solid #333;
@@ -10,4 +18,21 @@ hr {
 
 section{
     min-height: 600px;
+}
+
+.contact{
+    min-height: 800px;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 150px;
+    background-color: #333;
+}
+
+footer p{
+    color: #aaa;
+    font-size: 0.9em;
 }
